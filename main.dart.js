@@ -100668,7 +100668,7 @@ i4=J.e(J.c(e9.h(f4,i2),"METHOD"))}i2=0
 while(!0){if(!(i2<e6.gp(f6))){i1=""
 break}if(J.e(J.c(e6.h(f6,i2),"masterID"))===i4){i1=J.e(J.c(e6.h(f6,i2),"METHOD"))
 break}++i2}for(j0=2,i2=0;i2<g2.gp(f5);++i2)if(J.e(J.c(g2.h(f5,i2),"masterID"))===h8){g5=J.e(J.c(g2.h(f5,i2),"ITEMs"))
-if(A.bY(g5,"Hardness",0))j0=0
+if(A.bY(g5,"Hardness",0))j0=1
 g5=J.e(J.c(g2.h(f5,i2),"ITEMs"))
 if(A.bY(g5,"trid",0))j0=1}j1=A.a([],f0)
 for(j2=0;j2<20;){++j2
@@ -101064,7 +101064,7 @@ $S:647}
 A.Tl.prototype={
 t(a){return A.db(new A.akW(),t.b5,t.y)}}
 A.akW.prototype={
-$2(a,b){return new A.tz(B.TA,"UI QC ISN",A.aWZ(null,B.a6,null),!1,null)},
+$2(a,b){return new A.tz(B.TA,"QC GAS HES",A.aWZ(null,B.a6,null),!1,null)},
 $S:648}
 A.Tk.prototype={
 t(a){return A.db(new A.akV(),t.b5,t.y)}}
@@ -111901,7 +111901,7 @@ B.a2k=new A.er(B.a0Y,B.a23,B.a1P,B.a_D,B.a1K,B.a0S,B.a27,B.a03,B.a0z,B.a1F,B.a_w
 B.a2l=new A.am("UID",null,null,null,null,null,null,null,null)
 B.a2m=new A.am("UPDATE",null,null,null,null,null,null,null,null)
 B.a1d=new A.z(!0,B.r,null,"Mitr",null,null,26,B.x,B.cs,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a2q=new A.am("TPK UI GAS HSE",null,B.a1d,null,null,null,null,null,null)
+B.a2q=new A.am("TPK UI GAS HES",null,B.a1d,null,null,null,null,null,null)
 B.a2y=new A.am("Value",null,B.ij,null,null,null,null,null,null)
 B.a2L=new A.am("ID",null,null,null,null,null,null,null,null)
 B.a3_=new A.am("Field05",null,null,null,null,null,null,null,null)
